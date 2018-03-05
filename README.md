@@ -5,3 +5,5 @@ MK disini artinya Mata Kuliah
 data diri mahasiswa disimpan di list utama. 
 data MK disimpan di list anak. 
 list utama dan anak dihubungkan dengan perintah firstMK di setiap elemen di list utama
+# KALO NEMUI ERROR
+atau bisa buat algoritma yang lebih efisien tanpa ngerusak prosedur atau fungsi yang lain, silahkan edit terus commite
