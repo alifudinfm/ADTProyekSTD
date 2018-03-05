@@ -61,6 +61,7 @@ struct list
     address first;
 };
 
+//JANGAN DITIRU MENTAH MENTAH, UBAH NAMA PROSEDUR NYA DAN BALIK BALIK VARIABEL NYA
 void input(string &nim, string &nama, int &ipk, string &namaAyah, string &namaIbu);
 void alokasiMa(address &p,string &nim, string &nama, int &ipk, string &namaAyah, string &namaIbu);
 address alokasuMK(char kodeMK[5],char namaMK[20],int semester,int nilaiMK);
@@ -73,10 +74,12 @@ void deleteLast(list &l);
 void deleteAfter(list &l, address prec);
 void printInfo(list l);
 
+//JANGAN DITIRU MENTAH MENTAH, UBAH NAMA PROSEDUR NYA DAN BALIK BALIK VARIABEL NYA
 void insertFirstMK(list &l, addressMK &m, string &nim);
 void printInfoMK(list &l,string &nim);
 void createMK(list &l,string &nim);
 
+//JANGAN DITIRU MENTAH MENTAH, UBAH NAMA PROSEDUR NYA DAN BALIK BALIK VARIABEL NYA
 void insertTerurut(list &L1, address &p,string &nim, string &nama, int &ipk, string &namaAyah, string &namaIbu);
 void cari(list &l,string &nim);
 void menuUtama(list &L1, address &p,string &nim, string &nama, int &ipk, string &namaAyah, string &namaIbu);
