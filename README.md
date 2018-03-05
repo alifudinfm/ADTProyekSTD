@@ -1,0 +1,2 @@
+# ADTProyekSTD
+perhatikan define nya
